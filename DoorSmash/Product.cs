@@ -49,6 +49,7 @@ namespace DoorSmash
             }
             set 
             {
+                // value is the value coming in
                 if(value < 0)
                 {
                     string msg = $"{nameof(Price)} must be a postive value";

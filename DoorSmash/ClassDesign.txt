@@ -11,11 +11,7 @@
 	- Name
 	- RestaurantID
 
-Products
-	- Name (Must have a value)
-	- Description
-	- Price
-	- ProductId
+
 
 Ratings
 	- Star Rating 1 - 5

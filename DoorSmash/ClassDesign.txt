@@ -1,0 +1,23 @@
+﻿Restauarants
+	- Address/location, (Use maps to show distance)
+	- Open Hours
+	- Food Prep Time
+	- Delivery time
+	- Total Time
+	- List<Products>
+	- Category/Type of food (steakhouse, chicken, breakfast)
+	- Delivery Fee
+	- List<Rating>
+	- Name
+	- RestaurantID
+
+Products
+	- Name (Must have a value)
+	- Description
+	- Price
+	- ProductId
+
+Ratings
+	- Star Rating 1 - 5
+	- RestaurantID
+	- EmailAddress (of customer/reviewer)

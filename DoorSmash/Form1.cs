@@ -16,5 +16,20 @@ namespace DoorSmash
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Product p = new Product("Eggs");
+            {
+                p.Description = "You know what eggs are";
+                p.Price = 1.99;
+                p.ProductId = 1;
+
+            };
+
+            Restaurant r = new Restaurant();
+            r.Products.Add(p);
+            
+        }
     }
 }
